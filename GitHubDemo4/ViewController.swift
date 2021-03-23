@@ -13,10 +13,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         printHello()
+        
+        anotherPrint()
     }
     
     func printHello() {
         print("Hello Git!!!")
+    }
+    func anotherPrint() {
+        print("Another new print")
     }
 
 
